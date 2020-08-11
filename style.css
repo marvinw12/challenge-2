@@ -1,0 +1,185 @@
+body {
+    background: #EFEFEF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.whole-page {
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    background: #2B2B2B;
+    color:whitesmoke;
+    display: flex;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    width: 75%;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #EFEFEF;
+    
+}
+
+.nav li {
+    float: left;
+    margin: 20px;
+    padding-top: 20%;
+}
+
+ul i {
+    padding-right: 10px;
+    color: #2C6B8E;
+}
+
+.right-side-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 25%;
+    float: right;
+    padding-left: 45%;
+}
+
+.right-side-nav p {
+    color: #2C6B8E;
+}
+
+.fa-user-circle {
+    color: white;
+    padding-right: 3%;
+}
+
+.fa-caret-down {
+    padding-left: 3%;
+}
+
+.fa-share {
+    color: #2B2B2B;
+    position: relative;
+}
+
+.wrapper {
+    height:100%;
+    width:100%;
+}
+.boxes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;  
+}
+
+.box {
+    border: solid 1px whitesmoke;
+    display: flex;
+    flex-direction: column;   
+    width: 20%;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+}
+
+#one {
+    background:rgba(0, 0, 0, 0.2), url("./randomperson8.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+}
+
+#two {
+    background: url(randomperson3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#three {
+    background: url(randomperson6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#four {
+    background: url(randomperson4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#five {
+    background: url(randomperson7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#six {
+    background: url(randomperson5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#seven {
+    background: url(randomperson2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#eight{
+    background: url(randomperson1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-half {
+    height: 120px;
+    display: flex;
+}
+
+.top-half p {
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    left: 125px;
+}
+
+.top-half h1 {
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    left: 90px;
+    top: 5px;
+}
+
+.bottom-half {
+    font-size: .70rem;
+    padding-left: 5%;
+}
+
+.bottom-half .link {
+    flex-wrap: wrap;
+    font-size: .65rem;
+    width: 90%;
+    background: #EFEFEF;
+    padding: 3px;
+}
+
+.bottom-half h4 {
+    color: #b7b7b7;
+    margin-top: 0;
+}
+
+.bottom-half h1 {
+    color: #4AC1FC;
+    font-size: 2rem;
+    margin-top: 0;
+}
