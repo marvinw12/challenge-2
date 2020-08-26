@@ -67,6 +67,9 @@ ul i {
 .fa-share {
     color: #2B2B2B;
     position: relative;
+    border-radius: 50px;
+    background: #EFEFEF;
+    margin: 5px;
 }
 
 .wrapper {
@@ -92,50 +95,73 @@ ul i {
 }
 
 #one {
-    background:rgba(0, 0, 0, 0.2), url("./randomperson8.jpeg");
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65)
+        rgba(0, 0, 0, 0.45)
+        ), url(randomperson8.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-size: cover;
 }
 
 #two {
-    background: url(randomperson3.jpg);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65), 
+        rgba(0, 0, 0, 0.45)
+        ), url(randomperson3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #three {
-    background: url(randomperson6.png);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65), 
+        rgba(0, 0, 0, 0.45)
+        ), url(randomperson6.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #four {
-    background: url(randomperson4.jpeg);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65), 
+        rgba(0, 0, 0, 0.45)
+        ), url(randomperson4.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #five {
-    background: url(randomperson7.jpeg);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65), 
+        rgba(0, 0, 0, 0.45)
+        ), url(randomperson7.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #six {
-    background: url(randomperson5.jpeg);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65), 
+        rgba(0, 0, 0, 0.45)
+        ), url(randomperson5.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #seven {
-    background: url(randomperson2.jpg);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65), 
+        rgba(0, 0, 0, 0.45)
+        ), url(randomperson2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #eight{
-    background: url(randomperson1.jpg);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65), 
+        rgba(0, 0, 0, 0.45)
+        ), url(randomperson1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
